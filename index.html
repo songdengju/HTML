@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML作业</title>
+</head>
+<body>
+	<!-- 网页结构布局使用 表格标签-->
+	<div>
+		<table width="100%" rules="rows">   <!-- rules="none"消除边框 -->
+			<!-- 顶部 -->
+			<thead>
+			<tr bgcolor="#E1F2F9" border="0">  <!-- 一行三列  背景颜色#E1F2F9 -->
+				<td><img src="images/logo.png"> </td> <!-- logo部分 -->
+				<td width="70%" align="center">学校概况 &nbsp;&nbsp;机构设置 &nbsp;&nbsp;师资队伍&nbsp;&nbsp;科学研究 &nbsp;&nbsp;招生就业 &nbsp;&nbsp;图书馆 &nbsp;&nbsp;校长信箱 &nbsp;&nbsp;校园导航</td>
+				<td width="20%" align="center">
+					快速通道
+					<select>
+						<option selected="selected">Volvo</option>
+						<option>HTML</option>
+					</select>
+				</td>	
+			</tr>
+			<!-- 顶部结束 -->
+			<!-- banner部分 -->
+			<tr>
+				<td colspan="3">
+					<img src="images/banner.jpg" width="100%">
+				</td>
+			</tr>
+			<!-- banner部分结束 -->
+			</thead>
+			<!-- 主体部分 -->
+			<tbody>
+				<!-- 新闻区 -->
+				<tr>
+					<td></td> <!-- 分为3列 -->
+					<td align="center">  <!-- 在中件列插入一个表格 -->
+						<table style="font-size:12px">
+							<tr>
+								<td align="left" width="45%" style="font-size:13px"><b>慕课快讯 基层风采 媒体聚焦 慕课视频>></b></td>
+								<td align="left" width="45%" style="font-size:13px"><b>慕课快讯 基层风采 媒体聚焦 慕课视频>></b></td>
+								<td rowspan="9" align="center" vlign="middle"><img src="images/weixin.png" alt=""></td>
+							</tr>
+							<tr>
+								<td  align="left">>慕课平台扩容 涵盖多个领域 12-30</td>
+								<td  align="left">>慕课平台扩容 涵盖多个领域 12-30</td>
+							</tr>
+							<tr>
+								<td  align="left">>李克强主持座谈会 葛优刘国梁被请进中南海 12-30</td>
+								<td  align="left">>李克强主持座谈会 葛优刘国梁被请进中南海 12-30</td>
+							</tr>
+							<tr>
+								<td  align="left">>台军演习"歼灭"解放军 专家：自欺欺人 12-30</td>
+								<td  align="left">>台军演习"歼灭"解放军 专家：自欺欺人 12-30</td>
+							</tr>
+							<tr>
+								<td  align="left">>气象局停发雾霾预警？回应：正在协商联合发布机制 12-30</td>
+								<td  align="left">>气象局停发雾霾预警？回应：正在协商联合发布机制12-30</td>
+							</tr>
+							<tr>
+								<td  align="left">>独家：小米影业解散宣发部门 宣布一年后及时刹车域 12-30</td>
+								<td  align="left">>独家：小米影业解散宣发部门 宣布一年后及时刹车 12-30</td>
+							</tr>
+							<tr>
+								<td  align="left">>"哑巴群众"开口说话 是稿件有误还是新闻作假 12-30</td>
+								<td  align="left">>要置业，看看2017全球楼市掘金路线图 12-30</td>
+							</tr>
+							<tr>
+								<td  align="left">>要置业，看看2017全球楼市掘金路线图 12-30</td>
+								<td  align="left">>"哑巴群众"开口说话 是稿件有误还是新闻作假 12-30</td>
+							</tr>
+								<td  align="left">>王健林与房地产越来越远？贾跃亭越来越近 12-30</td>
+								<td  align="left">>王健林与房地产越来越远？贾跃亭越来越近 12-30</td>
+							</tr>
+						</table>
+					</td>
+					<td></td>
+				</tr>
+				<!-- 新闻区结束 -->
+				<!-- 近期专题区 -->
+				<tr> 
+					<td></td>
+					<td width="80%" >
+						<table width="100%" style="font-size:13px">
+							<tr align="left">
+								<td colspan="3" >近期专题</td>
+							</tr>
+							<tr align="center">
+								<td >
+									<dl>
+										<dt><img src="images/1.png" alt=""></dt>
+										<dd>教育发展基金专题</dd>     <!-- 文字没有剧中对齐，调试显示dd右格式？ -->
+									</dl>
+								</td>
+								<td>
+									<dl>
+										<dt><img src="images/2.png" alt=""></dt>
+										<dd>教育发展基金专题</dd>
+									</dl>
+								</td>
+								<td>
+									<dl>
+										<dt><img src="images/3.png" alt=""></dt>
+										<dd>教育发展基金专题</dd>
+									</dl>
+								</td>
+							</tr>
+						</table>
+						
+					</td>
+					<td></td>
+				</tr>
+				<!-- 近期专题区结束 -->
+			</tbody>
+			<tfoot>
+				<!-- 友情链接区 -->
+				<tr align="center" bgcolor="#E1F2F9">
+					<td colspan="3" height="50px">文化站点 &nbsp;&nbsp;信息服务 &nbsp;&nbsp;校友会 &nbsp;&nbsp;OA系统 &nbsp;&nbsp;教务管理系统 &nbsp;&nbsp;网络教学平台 &nbsp;&nbsp;VPN服务 &nbsp;&nbsp;acm/oj &nbsp;&nbsp;旧版入口 &nbsp;&nbsp;站群系统</td>
+				</tr>
+				<!-- 页脚区 -->
+				<tr align="center" bgcolor="#89A9BD">
+					<td colspan="3" height="80px"> 
+						Copyright &copy; 2017 imooc.com All Rights Reserved | 京ICP备 13046642号-2
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
